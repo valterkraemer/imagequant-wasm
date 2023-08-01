@@ -1,0 +1,16 @@
+[package]
+name = "imagequant"
+authors = ["Valter Kraemer"]
+description = "Use imagequant from JavaScript"
+version = "0.1.0"
+license = "GPL v3"
+repository = "https://github.com/valterkraemer/imagequant-wasm"
+edition = "2021"
+
+[dependencies]
+imagequant = { version = "4.2.0", default-features = false }
+lodepng = "3.7.2"
+wasm-bindgen = "0.2.87"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
