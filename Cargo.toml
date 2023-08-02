@@ -2,7 +2,7 @@
 name = "imagequant"
 authors = ["Valter Kraemer"]
 description = "Use imagequant from JavaScript"
-version = "0.1.1"
+version = "0.1.2"
 license = "GPL v3"
 repository = "https://github.com/valterkraemer/imagequant-wasm"
 edition = "2021"

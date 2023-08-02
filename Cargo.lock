@@ -82,7 +82,7 @@ dependencies = [
 
 [[package]]
 name = "imagequant"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "imagequant 4.2.0",
  "lodepng",
